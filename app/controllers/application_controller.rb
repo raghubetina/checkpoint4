@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
-  helper_method :access_token
-  def access_token
-    'AAACEdEose0cBAMotCf1ZArudeJ7LTiQFrxaRehy6YcrOlpLxZAZBG6mGYwRdZCNU2Pzs2H7Jq4erlN3lIk0ZAAl8fg2XMcVqUr7UyJ4YWhQZDZD'
+  helper_method :my_access_token
+  def my_access_token
+    'AAACEdEose0cBALndLfu2JorbdzbOx5xNIaZAfEFqkb4LkZCqGCkuzhBgRYKebW4EkLrd6h8Bsx5uUQlsbzKEMft8GTryfaGzqtnljGswZDZD'
   end
 end

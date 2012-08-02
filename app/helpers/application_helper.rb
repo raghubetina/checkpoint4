@@ -1,6 +1,6 @@
 module ApplicationHelper
   def profile_pic_url(facebook_id)
-    open("https://graph.facebook.com/#{facebook_id}/picture?access_token=#{access_token}").base_uri
+    "https://graph.facebook.com/#{facebook_id}/picture"
   end
   
   def video_embed_tag(link)
